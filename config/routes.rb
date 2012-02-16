@@ -1,4 +1,5 @@
 Rms::Application.routes.draw do
+  root :to => 'home#show'
   resource :home
 
   # The priority is based upon order of creation:
