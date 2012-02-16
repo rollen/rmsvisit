@@ -1,2 +1,2 @@
 web: rails server
-guard: guard
+guard: bundle exec guard

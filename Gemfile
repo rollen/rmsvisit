@@ -5,7 +5,9 @@ gem 'rails', '3.2.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg' 
+group :production do
+  gem 'pg' 
+end
 gem 'twitter-bootstrap-rails'
 
 
@@ -25,6 +27,7 @@ gem 'jquery-rails'
 
 
 group :development do
+  gem 'sqlite3'
   gem 'guard'
   gem 'guard-livereload'
   gem 'yajl-ruby'
