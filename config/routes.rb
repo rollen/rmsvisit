@@ -1,4 +1,6 @@
 Rms::Application.routes.draw do
+  resources :homes
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
