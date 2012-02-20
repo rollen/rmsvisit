@@ -1,55 +1,27 @@
 <div class='row-fluid'>
-  <div class='span6'>
-    <h1> Richard Stallman </h1><br />
+  <div class='span7'>
+    <h1> Richard Stallman </h1>
+    <h3> in Singapore </h3>
   </div>
   <div class='span4'>
     <h2> 13-14 March 2012</h2>
   </div>
 </div>
 <div class='row-fluid'>
-  <div class='span6'>
-    <p> American software freedom activist and computer programmer will be visiting Singapore to give talks on free Software and Digital goods</p></br>
-    <br />
-    <h2> Talks </h2></br />
-    <h3>Tuesday, 13th March: Free Software and Your Freedom</h3>
-    <table class='table'>
-      <tr>
-        <td> Venue </td>
-        <td>
-          <address>
-            <strong>NUS School of Computing</strong><br>
-            COM1 / 206<br>
-            Computing Drive<br>
-            Singapore 117417<br>
-          </address>
-        </td>
-      </tr>
-      <tr>
-        <td>Time</td>
-        <td> 2pm - 4.30pm </td>
-      </tr>
-    </table>
-
-    <h3>Wednesday, 14th March: A Free Digital Society</h3>
-    <table class='table'>
-      <tr>
-        <td> Venue </td>
-        <td>
-          <address>
-            <strong>NUS University Town</strong><br>
-            Town Plaza Auditorium<br>
-          </address>
-        </td>
-      </tr>
-      <tr>
-        <td>Time</td>
-        <td> 6pm - 8.30pm </td>
-      </tr>
-    </table>
+  <div class='span7'>
+    <%= render :partial => 'talks' %>
   </div>
   <div class='span4'>
-    <h3> Singapore</h3></br>
-    <img src="http://stallman.org/image001.jpg" alt="Richard Stallman"  width="300" />
+    <img src="http://stallman.org/image001.jpg" alt="Richard Stallman"  width="300" /><br />
+    <p> American software freedom activist and computer programmer will be visiting Singapore to give talks on free Software and Digital goods</p></br>
+    <h3> Frequently Asked Questions</h3><br />
+    <p> <strong>Are the talks open to everyone? </strong></p>
+    <p> Yes everyone is welcome to attend both talks</p>
+
+    <p> <strong>Do I need to have a background in Software to understand the talks</strong></p>
+    <p> Whilst the content of the talks do have references to software, the target audience of the talk does not need to have technical knowledge to appreciate Richards arguments</p>
   </div>
 </div>
+
+<%= render :partial => 'sponsors' %>
 
