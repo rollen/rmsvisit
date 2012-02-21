@@ -3,9 +3,13 @@ Run "rake doc:app" to generate API documentation for your models, controllers, h
 
 Tasks:
 Get ali to check all the data on the site
-Update Address of utown also confirm the location
+Update Address of utown also confirm the location (sent email to utown)
 Update FAQ as necessary
-Update Contacts
-Get Resources for Posters etc
+Update Contacts (sent info to ali)
+Get Resources for Posters etc / Make placeholders ( ask prof martin to ask amanda )
 Add directions to the various talks
-Add links to all the sponsor sites
+Add links to all the sponsor sites (done)
+Add SEO data for opengraph
+Add favicon for site
+Connect DNS
+Remove redundant headers(done)

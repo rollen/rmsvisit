@@ -4,6 +4,7 @@ Rms::Application.routes.draw do
   match '/resources' => 'homes#resources'
   match '/contact' => 'homes#contact'
   match '/blog' => 'homes#blog'
+  match '/directions' => 'homes#getting_here'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
