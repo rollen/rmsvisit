@@ -4,3 +4,7 @@ h1 {
 p {
   text-align: justify
 }
+
+div > .table {
+  margin-bottom: 0px;
+}
