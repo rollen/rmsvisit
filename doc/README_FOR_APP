@@ -2,17 +2,19 @@ Use this README file to introduce your application and point to useful places in
 Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
 
 Tasks:
-Get ali to check all the data on the site
 
-Update Address of utown also confirm the location (sent email to utown) (done)
-Update FAQ as necessary
+
+---- Pending ----
 Add directions to the various talks
-Add SEO data for opengraph
 Add favicon for site
-Connect DNS
-
+Get ali to check all the data on the site
 Get Resources for Posters etc / Make placeholders ( get from cedric )
+Connect DNS
+Add SEO data for opengraph
+Fix alignment for sponsors at bottom of page
 
+---- Done ----
+Update Address of utown also confirm the location (sent email to utown) (done)
 Update Contacts (sent info to ali) (done)
 Add links to all the sponsor sites (done)
 Remove redundant headers(done)
