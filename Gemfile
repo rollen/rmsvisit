@@ -8,6 +8,7 @@ gem 'rails', '3.2.1'
 group :production do
   gem 'pg' 
 end
+gem 'therubyracer', '~> 0.9.8'
 gem 'twitter-bootstrap-rails'
 gem 'whenever'
 
