@@ -1,12 +1,13 @@
-<h1> Resources </h1><hr />
-<div class='row-fluid'>
-  <div class='span6'>
-    <%= image_tag 'a_free_digital_societey.jpg' %>
+<h1> Posters</h1><hr />
+<% @posters.each do |poster| %>
+  <div class='row-fluid'>
+    <div class='span3'>
+      <%= image_tag poster[:name] %>
+    </div>
+    <div class='span6'>
+      <p>Download:</p>
+      <%= link_to 'High Resolution', 'www.google.com' %>
+    </div>
   </div>
-
-  <div class='span6'>
-    <%= image_tag 'free_software_and_your_digital_freedom.jpg' %>
-  </div>
-
-</div>
-
+  <hr />
+<% end %>
