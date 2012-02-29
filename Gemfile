@@ -11,6 +11,7 @@ end
 gem 'therubyracer', '~> 0.9.8'
 gem 'twitter-bootstrap-rails'
 gem 'whenever'
+gem 'rack-offline'
 
 
 # Gems used only for assets and not required

@@ -1,6 +1,7 @@
 Rms::Application.routes.draw do
   root :to => 'homes#show'
   resource :home
+  match '/application.manifest' => Rails::Offline
   match '/resources' => 'homes#resources'
   match '/contact' => 'homes#contact'
   match '/blog' => 'homes#blog'
