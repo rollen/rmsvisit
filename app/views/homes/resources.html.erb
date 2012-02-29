@@ -1,13 +1,13 @@
 <h1> Posters</h1><hr />
-<% @posters.each do |poster| %>
-  <div class='row-fluid'>
+<div class='row-fluid'>
+  <% @posters.each do |poster| %>
     <div class='span3'>
-      <%= image_tag poster[:name] %>
+      <%= image_tag poster[:low] %>
     </div>
-    <div class='span6'>
+    <div class='span3'>
       <p>Download:</p>
-      <%= link_to 'High Resolution', 'www.google.com' %>
+      <%= link_to 'High Resolution', (image_path poster[:high]) %>
     </div>
-  </div>
-  <hr />
-<% end %>
+  <% end %>
+</div>
+<hr />

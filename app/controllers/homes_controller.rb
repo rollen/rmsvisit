@@ -3,7 +3,8 @@ class HomesController < ApplicationController
   end
 
   def resources
-    @posters = [{name: 'a_free_digital_societey.jpg'}, {name: 'free_software_and_your_digital_freedom.jpg'}]
+    @posters = [{low: 'a_free_digital_societey_low.jpg', high: 'a_free_digital_societey.jpg'}, 
+                {low: 'free_software_and_your_digital_freedom_low.jpg', high: 'free_software_and_your_digital_freedom_.jpg'}]
   end
 
   def contact
