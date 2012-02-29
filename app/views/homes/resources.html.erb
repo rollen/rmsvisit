@@ -2,11 +2,14 @@
 <div class='row-fluid'>
   <% @posters.each do |poster| %>
     <div class='span3'>
-      <%= image_tag poster[:low] %>
+      <%= image_tag poster.fetch(:low) %>
     </div>
     <div class='span3'>
-      <p>Download:</p>
-      <%= link_to 'High Resolution', (image_path poster[:high]) %>
+      <p><strong>Download:</strong></p>
+      <ul>
+        <li><%= link_to 'High Resolution - jpg', (image_path poster.fetch(:high)) %></li>
+        <li><%= link_to 'Source - xcf', (image_path poster.fetch(:source)) %></li>
+      </ul>
     </div>
   <% end %>
 </div>
