@@ -1,3 +1,7 @@
 div > .table {
   margin-bottom: 0px;
 }
+
+.fluid {
+  max-width: 95%;
+}
