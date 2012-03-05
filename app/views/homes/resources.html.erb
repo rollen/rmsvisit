@@ -9,6 +9,8 @@
       <ul>
         <li><%= link_to 'High Resolution - jpg', (image_path poster.fetch(:high)) %></li>
         <li><%= link_to 'Source - xcf', (image_path poster.fetch(:source)) %></li>
+        <li><%= link_to 'A3 Poster - pdf', (image_path poster.fetch(:a3)) %></li>
+        <li><%= link_to 'A2 Poster - pdf', (image_path poster.fetch(:a2)) %></li>
       </ul>
     </div>
   <% end %>
